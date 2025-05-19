@@ -21,7 +21,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
 @RequestMapping("proposta")
-@CrossOrigin(origins = "https://crm-front-end-p1la.onrender.com", allowCredentials = "true")
 public class PropostaController {
 
     @Autowired

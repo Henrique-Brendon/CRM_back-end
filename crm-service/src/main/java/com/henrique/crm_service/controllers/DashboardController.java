@@ -17,7 +17,6 @@ import com.henrique.crm_service.repositories.PropostaRepository;
 
 @RestController
 @RequestMapping("/dashboard")
-@CrossOrigin(origins = "https://crm-front-end-p1la.onrender.com", allowCredentials = "true")
 public class DashboardController {
 
     private final PropostaRepository propostaRepository;

@@ -16,7 +16,6 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @RestController
 @RequestMapping("usuario")
-@CrossOrigin(origins = "https://crm-front-end-p1la.onrender.com", allowCredentials = "true")
 public class UsuarioController {
     
     private final UsuarioService usuarioService;

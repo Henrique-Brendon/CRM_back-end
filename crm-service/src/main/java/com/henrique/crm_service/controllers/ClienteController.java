@@ -14,7 +14,6 @@ import com.henrique.crm_service.services.ClienteService;
 
 @RestController
 @RequestMapping("cliente")
-@CrossOrigin(origins = "https://crm-front-end-p1la.onrender.com", allowCredentials = "true")
 public class ClienteController {
 
     @Autowired
