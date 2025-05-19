@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CrmServiceApplication",
+            "request": "launch",
+            "mainClass": "com.henrique.crm_service.CrmServiceApplication",
+            "projectName": "crm-service"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UserServiceApplication<user_service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.henrique.user_service.UserServiceApplication",
+            "projectName": "user_service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
