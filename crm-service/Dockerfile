@@ -10,7 +10,7 @@ FROM eclipse-temurin:17-jdk-jammy
 WORKDIR /app
 
 # Expõe a porta da API
-EXPOSE 8082
+EXPOSE 8081
 
 # Copia o JAR gerado do build para o container final
 COPY --from=build /app/target/*.jar app.jar
